@@ -9,7 +9,6 @@
 ##### Dataset Uses: Charades Dataset	(http://ai2-website.s3.amazonaws.com/data/Charades_v1_rgb.tarR)
 
 ##### Dependencies:
-###### 	i)Module Dependencies
  		* pandas
  		* glob
  		* os
