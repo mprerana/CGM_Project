@@ -1,0 +1,6 @@
+Project Title: Safety Recommendation system for Autonomous Driving
+Group Member name: N. Jaswanth
+rollno: 201799003
+
+Medium Post Link:
+https://medium.com/@jaswanth.n/road-segmentation-from-scratch-using-deep-learning-towards-autonomous-driving-19e5ced680b8
