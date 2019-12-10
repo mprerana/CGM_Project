@@ -1,5 +1,7 @@
 # Activity Recognition using Multi-modality
 
+##### Group Members : Arvind Deshraj, G.Arshad, JUNAID N.Z, Rohan Sukumaran, Siddharth Kumar, Hareesh Devarkonda
+
 ##### Paper Link :
 
 ##### Medium Blog Link :
