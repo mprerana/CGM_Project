@@ -2,8 +2,6 @@
 
 ##### Group Members : Arvind Deshraj, G.Arshad, JUNAID N.Z, Rohan Sukumaran, Siddharth Kumar, Hareesh Devarkonda
 
-##### Paper Link :
-
 ##### Medium Blog Link : https://medium.com/@arshad.g16/human-activity-recognition-har-using-multi-modal-attention-8c81ceff6745
 
 
