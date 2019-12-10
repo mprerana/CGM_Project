@@ -1,5 +1,9 @@
 # Activity Recognition using Multi-modality
 
+#### Paper Link :
+
+#### Medium Blog Link :
+
 ##### Programming Language Used : Python
 
 ##### Dataset Uses: Charades Dataset	(http://ai2-website.s3.amazonaws.com/data/Charades_v1_rgb.tarR)
