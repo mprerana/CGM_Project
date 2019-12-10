@@ -13,7 +13,7 @@ The Charades dataset is composed of 9848 videos of indoor activities which were 
 
 ##### Programming Language Used : Python
 
-##### Dataset Uses: Charades Dataset	(http://ai2-website.s3.amazonaws.com/data/Charades_v1_rgb.tarR)
+##### Dataset Used: Charades Dataset	(http://ai2-website.s3.amazonaws.com/data/Charades_v1_rgb.tarR)
 
 ##### Dependencies:
  		* pandas
