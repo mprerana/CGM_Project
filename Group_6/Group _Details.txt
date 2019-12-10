@@ -1,0 +1,13 @@
+Group Id: 06
+
+Project Title: Musical notes Generation\
+
+
+Group Members Details:
+
+A.N.Vaishnavi - S20170010001\
+A.Sree Vidya - S20170010007\
+Deeksha Nayab -S20170010040\
+G.Keerti - SS20170010051\
+G.Sai Sree Nithya - S20170010050\
+}
