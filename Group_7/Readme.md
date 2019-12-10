@@ -57,7 +57,7 @@ The Charades dataset is composed of 9848 videos of indoor activities which were 
        Proceedings of the 2016 ACM on International Conference on Multimedia Retrieval
        (ICMR &#39;16). ACM, New York, NY, USA, 281-284.
 
-     5) K. Chen, T. Bui, C. Fang, Z. Wang, and R. Nevatia. AMC: Attention guided multi-
+    5) K. Chen, T. Bui, C. Fang, Z. Wang, and R. Nevatia. AMC: Attention guided multi-
         modal correlation learning for image search. In CVPR, 2017.
 
     6) Hori, C., Hori, T., Lee, T.Y., Zhang, Z., Harsham, B., Hershey, J.R., Marks, T.K.,
