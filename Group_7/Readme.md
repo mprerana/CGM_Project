@@ -1,8 +1,8 @@
 # Activity Recognition using Multi-modality
 
-#### Paper Link :
+##### Paper Link :
 
-#### Medium Blog Link :
+##### Medium Blog Link :
 
 ##### Programming Language Used : Python
 
