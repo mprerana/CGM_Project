@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="img/favicon.png" type="image/png">
+    <title>Summarizer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='vendors/linericon/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/font-awesome.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='vendors/owl-carousel/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='vendors/lightbox/simpleLightbox.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='vendors/nice-select/css/nice-select.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='vendors/animate-css/animate.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='vendors/jquery-ui/jquery-ui.css') }}">
+    <!-- main css -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/responsive.css') }}">
+	
+	<style>
+		.banner_area{
+			height: 200px !important;
+		}
+	</style>
+	
+</head>
+
+<body>
+
+    <!--================ Banner Area =================-->
+    <section class="banner_area" style=" top: 0px; height: 100px !important" >
+        <div class="banner_inner d-flex align-items-center">
+            <div class="container" >
+                <div class="banner_content text-left">
+                    <h2>Video Summarizer</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--================End Banner Area =================-->
+
+    <!--================Contact Area =================-->
+    <section class="contact_area p_120">
+        <div class="container">
+            <!-- <div id="mapBox" class="mapBox"> -->
+			{% if data["summarized"]==True %}
+                <video width="100%" height="100%" controls>
+                    <source src="{{ url_for('static', filename='final.mp4') }}" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            {% endif %}
+
+			<!--================  Bideo here  =================-->
+			
+            <!-- </div> -->
+            <form method="post">
+                <div class="row">
+                    
+                    <div class="col-lg-9">
+                        <form class="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <!-- <input type="text" class="form-control" id="link" name="link" placeholder="Enter the link of video"> -->
+                                    <input type="text" name="video_id" placeholder="Enter Youtube ID">
+                                </div>
+                                <div class="form-group">
+                                    <!-- <input type="text" class="form-control" id="length" name="length" placeholder="Lenth of summarization"> -->
+                                    <input type="number" name="summary_length" placeholder="Minimum Summary Length">
+                                </div>
+                            </div>
+                           
+                            <div class="col-md-12 text-right">
+                                <!-- <button type="submit" value="submit" class="btn submit_btn">Summarize</button> -->
+                                <input type="submit" class="btn submit_btn" value="Summarize">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!--================Contact Area =================-->
+    <script src="{{ url_for('static', filename='js/jquery-3.2.1.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/popper.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='vendors/nice-select/js/jquery.nice-select.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/jquery.ajaxchimp.min.js') }}"></script>
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA7nx22ZmINYk9TGiXDEXGVxghC43Ox6qA"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="{{ url_for('static', filename='js/mail-script.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/custom.js') }}"></script>
+</body>
+
+</html>
