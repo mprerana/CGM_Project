@@ -32,12 +32,12 @@ online streaming has become very popular these days due to the increase in the n
 - Many companies nowadays use music classification, either to recommend playlists to their customers (such as Spotify, Soundcloud) or simply as a product (Shazam, musixmatch). Music genre classification forms the basis steps for any music recommendation system.
 
 For each of the network three separate folders have been created.
-1.  Multi-frame strategy with an average stage developed: [Multiframe Approach]()
-3.	A multi modal fusion network approach for classification using both lyrics and mel spectograms: [Multiframe Approach]()
-4.	A Machine Learning and text ensemble for classification using time domain and frequency domain features: [lyrics classifier BERT]()
+1.  Multi-frame strategy with an average stage developed: [Multiframe Approach](https://github.com/laishawadhwa/CGM_Project/tree/master/Group_4/Multiframe%20Approach)
+3.	A multi modal fusion network approach for classification using both lyrics and mel spectograms: [Dense Co Attention](https://github.com/laishawadhwa/CGM_Project/tree/master/Group_4/Dense%20Co%20Attention)
+4.	A Machine Learning and text ensemble for classification using time domain and frequency domain features: [lyrics classifier BERT](https://github.com/laishawadhwa/CGM_Project/tree/master/Group_4/lyrics%20classifier%20BERT)
 
 The running instructions are provided in each of the folders.
 
-Following are the results
+## Following are the results
 
-Image
+![Results for experiments](https://github.com/laishawadhwa/CGM_Project/blob/master/Group_4/Tableres.PNG)
