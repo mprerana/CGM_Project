@@ -7,7 +7,8 @@
 
 ##### Introduction
 
-The Charades dataset is composed of 9848 videos of indoor activities which were collected through the Amazon Mechanical Turk. The users were given a sentence and were asked to record a video acting out the sentence, resembling a game of Charades. Each video has been annotated using the consensus of 4 workers on the training set and 8 workers on the test set.
+A multi-modal multi-level attention model is used for achieving the task. Multi-modal refers to usage of more than one modality, eg: Image + Audio or Audio + Text etc.  
+We use the Charades Dataset, that contains data from two modalities - Action Video and Text( the script accompanying the video)
 
 
 ##### Programming Language Used : Python
