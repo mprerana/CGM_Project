@@ -37,7 +37,7 @@ For each of the network three separate folders have been created.
 3.	A Machine Learning and text ensemble for classification using time domain and frequency domain features: [XGBOOST](https://github.com/laishawadhwa/CGM_Project/tree/master/Group_4/XGBOOST)
 
 
-
+Medium Post can be found [HERE](https://medium.com/@laisha.w16_85978/understanding-music-genre-classification-a-multi-modal-fusion-approach-6989caa87803) 
 
 The running instructions are provided in each of the folders.
 
