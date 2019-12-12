@@ -12,3 +12,5 @@ Required dependencies :
 - numpy
 
 Run Generate_Music file to generate music in jupyter notebook
+
+Medium Post Link - https://medium.com/@sreevidya.a17/musical-notes-generation-fab8f9101aaa?source=friends_link&sk=f60886304f06b045904f17327222d042
