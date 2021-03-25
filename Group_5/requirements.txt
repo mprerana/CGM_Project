@@ -46,7 +46,7 @@ pyasn1-modules==0.2.7
 pydload==1.0.6
 python-utils==2.3.0
 pytube==9.5.3
-PyYAML==5.1.2
+PyYAML==5.4
 requests==2.22.0
 requests-oauthlib==1.3.0
 rsa==4.0
