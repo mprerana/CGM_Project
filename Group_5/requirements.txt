@@ -40,7 +40,7 @@ opt-einsum==3.1.0
 Pillow==6.2.1
 proglog==0.1.9
 progressbar2==3.47.0
-protobuf==3.11.0
+protobuf==3.18.3
 pyasn1==0.4.8
 pyasn1-modules==0.2.7
 pydload==1.0.6
